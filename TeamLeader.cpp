@@ -41,8 +41,8 @@ void TeamLeader::print(bool showRole) const {
     std::cout << std::fixed << std::setprecision(2);
     std::cout << "Monthly bonus: $" << monthlyBonus << '\n';
     std::cout << "Required training: " << requiredHours << " hours\n";
-    std::cout << "Attended training: " << attendedHours << " hours\n';
-        if (showRole) {
-            std::cout << "Role: Team Leader\n";
-        }
+    std::cout << "Attended training: " << attendedHours << " hours\n";
+    if (showRole) {
+        std::cout << "Role: Team Leader\n";
+    }
 }

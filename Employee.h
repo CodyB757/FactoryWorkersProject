@@ -3,9 +3,6 @@
 
 #include <string>
 
-// Class Invariant:
-// name, employeeNumber, and hireDate must be nonblank strings
-// (not empty and not whitespace-only).
 class Employee {
 private:
     std::string name;

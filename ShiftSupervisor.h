@@ -3,9 +3,6 @@
 
 #include "Employee.h"
 
-// Class Invariant:
-// Employee invariant holds; annualSalary and annualBonus
-// are finite and at least 0.
 class ShiftSupervisor : public Employee {
 private:
     double annualSalary;
